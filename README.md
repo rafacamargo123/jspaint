@@ -126,7 +126,7 @@ This doesn't undo saving the file, but allows you to then save in a different fo
 Formats marked with 🌐 are currently left up to the browser to support or not.
 They appear in the file type dropdown but may or may not work.
 
-"Read Palette" refers to loading the colors into the Colors box automatically,
+"Read Palette" refers to loading the colors into the Colors box automatically (from an [indexed color](https://en.wikipedia.org/wiki/Indexed_color) image),
 and "Write Palette" refers to writing an [indexed color](https://en.wikipedia.org/wiki/Indexed_color) image.
 
 ### Color Palette Formats
