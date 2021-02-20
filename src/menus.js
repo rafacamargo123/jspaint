@@ -989,7 +989,7 @@ window.menus = {
 			item: "🌍 " + localize("&Language"),
 			submenu: available_languages.map((available_language)=> (
 				{
-					item: get_endonym(available_language),
+					item: get_language_emoji(available_language) + " " + get_language_endonym(available_language),
 					action: ()=> {
 						set_language(available_language);
 					},
