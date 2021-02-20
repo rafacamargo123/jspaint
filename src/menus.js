@@ -864,7 +864,7 @@ window.menus = {
 			item: "💄 " + localize("&Themes"),
 			submenu: [
 				{
-					item: localize("&Classic"),
+					item: "🔙 " + localize("&Classic"),
 					speech_recognition: [
 						"reset theme", "revert theme setting",
 						"classic theme", "switch to classic theme", "use classic theme", "set theme to classic", "set theme classic", "switch to classic theme", "switch theme to classic", "switch theme classic",
@@ -893,7 +893,7 @@ window.menus = {
 					description: localize("Makes JS Paint look like MS Paint from Windows 98."),
 				},
 				{
-					item: localize("&Dark"),
+					item: "⬛ " + localize("&Dark"),
 					speech_recognition: [
 						"dark theme", "switch to dark theme", "use dark theme", "set theme to dark", "set theme dark", "switch to dark theme", "switch theme to dark", "switch theme dark",
 						"dark mode", "switch to dark mode", "use dark mode", "set mode to dark", "set mode dark", "switch to dark mode", "switch mode to dark", "switch mode dark",
@@ -910,7 +910,7 @@ window.menus = {
 					description: localize("Makes JS Paint darker."),
 				},
 				{
-					item: localize("&Modern"),
+					item: "⚪ " + localize("&Modern"),
 					speech_recognition: [
 						"modern theme", "switch to modern theme", "use modern theme", "set theme to modern", "set theme modern", "switch to modern theme", "switch theme to modern", "switch theme modern",
 					],
@@ -921,7 +921,7 @@ window.menus = {
 					description: localize("Makes JS Paint look a bit more modern."),
 				},
 				{
-					item: localize("&Winter"),
+					item: "❄️ " + localize("&Winter"),
 					speech_recognition: [
 						"winter theme", "switch to winter theme", "use winter theme", "set theme to winter", "set theme winter", "switch to winter theme", "switch theme to winter", "switch theme winter",
 						"holiday theme", "switch to holiday theme", "use holiday theme", "set theme to holiday", "set theme holiday", "switch to holiday theme", "switch theme to holiday", "switch theme holiday",
@@ -935,7 +935,7 @@ window.menus = {
 					description: localize("Makes JS Paint look festive for the holidays."),
 				},
 				{
-					item: localize("&Occult"),
+					item: "🤘 " + localize("&Occult"),
 					speech_recognition: [
 						"occult theme", "switch to occult theme", "use occult theme", "set theme to occult", "set theme occult", "switch to occult theme", "switch theme to occult", "switch theme occult",
 						"occultist theme", "switch to occultist theme", "use occultist theme", "set theme to occultist", "set theme occultist", "switch to occultist theme", "switch theme to occultist", "switch theme occultist",
