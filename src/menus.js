@@ -692,7 +692,7 @@ window.menus = {
 	],
 	[localize("E&xtras")]: [
 		{
-			item: localize("&History"),
+			item: "⌚ " + localize("&History"),
 			shortcut: "Ctrl+Shift+Y",
 			speech_recognition: [
 				// This is a duplicate menu item (for easy access), so it doesn't need speech recognition data here.
@@ -701,7 +701,7 @@ window.menus = {
 			description: localize("Shows the document history and lets you navigate to states not accessible with Undo or Repeat."),
 		},
 		{
-			item: localize("&Render History As GIF"),
+			item: "🎞️ " + localize("&Render History As GIF"),
 			shortcut: "Ctrl+Shift+G",
 			speech_recognition: [
 				// @TODO: animated gif, blah
@@ -770,7 +770,7 @@ window.menus = {
 			description: localize("Draws randomly with different tools."),
 		},*/
 		{
-			item: localize("&Multi-User"),
+			item: "👥 " + localize("&Multi-User"),
 			submenu: [
 				{
 					item: localize("&New Session From Document"),
@@ -861,7 +861,7 @@ window.menus = {
 			]
 		},
 		{
-			item: localize("&Themes"),
+			item: "💄 " + localize("&Themes"),
 			submenu: [
 				{
 					item: localize("&Classic"),
@@ -986,7 +986,7 @@ window.menus = {
 			]
 		},
 		{
-			item: localize("&Language"),
+			item: "🌍 " + localize("&Language"),
 			submenu: available_languages.map((available_language)=> (
 				{
 					item: get_endonym(available_language),
@@ -999,7 +999,7 @@ window.menus = {
 			)),
 		},
 		{
-			item: localize("&Eye Gaze Mode"),
+			item: "👁️ " + localize("&Eye Gaze Mode"),
 			speech_recognition: [
 				"toggle eye gaze mode",
 				"enable eye gaze mode",
@@ -1058,7 +1058,7 @@ window.menus = {
 			description: localize("Enlarges buttons and provides dwell clicking."),
 		},
 		{
-			item: localize("&Speech Recognition"),
+			item: "🎙️ " + localize("&Speech Recognition"),
 			speech_recognition: [
 				"toggle speech recognition", "toggle speech recognition mode",
 				"disable speech recognition", "disable speech recognition mode", "turn off speech recognition", "turn off speech recognition mode", "leave speech recognition mode", "exit speech recognition mode",
@@ -1079,7 +1079,7 @@ window.menus = {
 			description: localize("Controls the application with voice commands."),
 		},
 		{
-			item: localize("&Vertical Color Box"),
+			item: "↕️ " + localize("&Vertical Color Box"),
 			speech_recognition: [
 				"toggle vertical color box", "toggle vertical color box mode",
 				"toggle vertical colors box", "toggle vertical colors box mode",
@@ -1116,7 +1116,7 @@ window.menus = {
 		},
 		MENU_DIVIDER,
 		{
-			item: localize("Manage Storage"),
+			item: "🗃️ " + localize("Manage Storage"),
 			speech_recognition: [
 				// This is a duplicate menu item (for easy access), so it doesn't need speech recognition data here.
 			],
@@ -1125,7 +1125,7 @@ window.menus = {
 		},
 		MENU_DIVIDER,
 		{
-			item: localize("Project News"),
+			item: "📢 " + localize("Project News"),
 			speech_recognition: [
 				"project news", "news about the project", "news about this project",
 				"app news", "news about the app", "news about this app",
@@ -1137,7 +1137,7 @@ window.menus = {
 			description: localize("Shows news about JS Paint."),
 		},
 		{
-			item: localize("GitHub"),
+			item: "ℹ️ " + localize("GitHub"),
 			speech_recognition: [
 				"repo on github", "project on github", "show the source code", "show source code",
 			],
@@ -1145,7 +1145,7 @@ window.menus = {
 			description: localize("Shows the project on GitHub."),
 		},
 		{
-			item: localize("Donate"),
+			item: "💵 " + localize("Donate"),
 			speech_recognition: [
 				"donate", "make a monetary contribution",
 			],
