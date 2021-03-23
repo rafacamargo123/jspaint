@@ -480,13 +480,13 @@ $G.on("keydown", e => {
 			selection.scale(2 ** delta);
 		}else{
 			if(selected_tool.id === TOOL_BRUSH){
-				brush_size = Math.max(1, Math.min(brush_size + delta, 500));
+				brush_size = Math.max(1, brush_size + delta);
 			}else if(selected_tool.id === TOOL_ERASER){
-				eraser_size = Math.max(1, Math.min(eraser_size + delta, 500));
+				eraser_size = Math.max(1, eraser_size + delta);
 			}else if(selected_tool.id === TOOL_AIRBRUSH){
-				airbrush_size = Math.max(1, Math.min(airbrush_size + delta, 500));
+				airbrush_size = Math.max(1, airbrush_size + delta);
 			}else if(selected_tool.id === TOOL_PENCIL){
-				pencil_size = Math.max(1, Math.min(pencil_size + delta, 50));
+				pencil_size = Math.max(1, pencil_size + delta);
 			}else if(
 				selected_tool.id === TOOL_LINE ||
 				selected_tool.id === TOOL_CURVE ||
