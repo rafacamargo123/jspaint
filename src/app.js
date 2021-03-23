@@ -471,9 +471,9 @@ $G.on("keydown", e => {
 		redo();
 	}else if(e.keyCode === 46){ //Delete
 		delete_selection();
-	}else if(e.keyCode === 107 || e.keyCode === 109){ // Numpad Plus and Minus
-		const plus = e.keyCode === 107;
-		const minus = e.keyCode === 109;
+	}else if(e.keyCode === 107 || e.keyCode === 109 || e.key === '+' || e.key === '-'){ // Numpad Plus and Minus
+		const plus = e.keyCode === 107 || e.key === '+';
+		const minus = e.keyCode === 109 || e.key === '-';
 		const delta = plus - minus; // const delta = +plus++ -minus--; // Δ = ±±±±
 
 		if(selection){
